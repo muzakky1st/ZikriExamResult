@@ -1,0 +1,9 @@
+com\ZikriTest\Entity\Product.class
+com\ZikriTest\Service\CustomerService.class
+com\ZikriTest\ZikriTestApplication.class
+com\ZikriTest\Repo\ItemRepo.class
+com\ZikriTest\Service\ItemService.class
+com\ZikriTest\Controller\CustomerController.class
+com\ZikriTest\Repo\CustomerRepo.class
+com\ZikriTest\Entity\Customer.class
+com\ZikriTest\Controller\ItemController.class
