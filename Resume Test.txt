@@ -1,0 +1,32 @@
+  Detail Hasil Test :
+  1. IDE      : Intellij IDEA
+  2. Database : MySQL Phpmyadmin (xampp v3.2.2)
+  3. Java version : 11
+  4. Maven version : 3.9.2
+  5. Database Name : dbinspiro
+  6. Port Running : 9900
+  7. Port Database : 3306
+
+Table :
+1. Product
+	-product_name
+	-price
+	-stock
+2. Customer
+	-name
+	-qty
+	-saldo_awal
+	-sisa
+
+API :
+
+http://localhost:9900/item/new-item (Method: POST)
+http://localhost:9900/item/get-all-item (Method: GET)
+http://localhost:9900/item/update-item/{id} (Method: PUT)
+http://localhost:9900/item/delete-item/{id} (Method: DELETE)
+
+
+
+http://localhost:9900/customer/new-customer/{id} (berdasarkan "id" product) (Method: POST)
+http://localhost:9900/customer/get-all-customer (Method: GET)
+http://localhost:9900/customer/delete-customer/{id} (berdasarkan "id" customer) (Method: DELETE)
